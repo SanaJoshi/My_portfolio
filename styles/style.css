@@ -1,0 +1,212 @@
+@import "https://fonts.googleapis.com/css?family=Copse|Dancing+Script|Gentium+Basic|Inconsolata";
+
+
+.container-fluid{
+
+  width: 100%;
+
+
+}
+a{
+  color: black;
+  text-decoration: underline;
+}
+a:hover{
+  color:red;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  border: none;
+
+}
+img:hover{
+
+box-shadow: 0 1px 8px green;
+
+}
+.test li{
+
+  font-weight: bold;
+  font-family:'Dancing Script';
+  font-size: 50px;
+  color:red;
+  list-style: none;
+  text-align: center;
+
+}
+.card{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.favicon{
+  height:30px;
+  width: 30px;
+  color:red;
+
+}
+.navbar{
+  background-color:#e3f2f4;
+
+}
+.girl{
+  height:600px;
+  width:auto;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/00/ce/0d/00ce0ddc447afc5e010b1467fad5db06.jpg");
+  background-size: cover;
+  border-left:5px solid black;
+}
+.info{
+  height:600px;
+  vertical-align: middle;
+  display: table;
+
+}
+.info_container{
+  display: table-cell;
+  vertical-align: middle;
+
+}
+.jumbotron .sana{
+  text-align: center;
+
+}
+.jumbotron{
+  background-color:#e3f2f4;
+}
+.row .sana{
+  margin-bottom: 100px;
+}
+.intro{
+  color:red;
+  font-weight: bold;
+  font-size: 40px;
+}
+.container .sana{
+
+  border-right:5px solid black;
+  text-align: right;
+
+
+}
+.space{
+  padding: 50px;
+}
+.container h1{
+  color: red;
+}
+ .container .work{
+   font-size: 30px;
+   text-align: center;
+
+ }
+.card-img-top{
+  max-height: 200px;
+  display: block;
+  margin: 0 auto;
+  width: auto;
+
+}
+.navbar-text img{
+  height: 30px;
+  margin: 0 10px;
+}
+.card-link{
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .girl, .info{
+    height: 300px;
+
+
+  }
+  .container .sana{
+    text-align: center;
+    border:0;
+
+  }
+  .container .exp{
+    text-align: center;
+  }
+  .test li{
+    font-size: 30px;
+  }
+  /*.navbar {
+    text-align: center;
+  }*/
+  .navbar-brand{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  }
+
+  ul.nav{ display:none;
+  }
+  .navbar-text{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .row .sana{
+    margin: 0 auto;
+  }
+
+}
+.typewriter p {
+  font-size: 20px;
+  text-align: center;
+  color:black;
+  font-family:'Dancing Script';
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid grey; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: grey;}
+}
+/*.stitched {
+   padding: 20px;
+   margin: 10px auto;
+   background: #ff0030;
+   color: #fff;
+   font-size: 21px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 2px dashed #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-shadow: -1px -1px #aa3030;
+   width:80%;
+
+}*/
+.typewrite{
+  color:red;
+  font-size: 30px;
+  font-family: 'Inconsolata';
+  text-decoration: none;
+
+}
+.footer {
+
+    background-color:#e3f2f4;
+    height:70px;
+    width: 100%;
+}
+.footer p{
+  text-align:center;
+}

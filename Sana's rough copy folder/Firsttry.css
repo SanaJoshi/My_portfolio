@@ -1,0 +1,108 @@
+@import "https://fonts.googleapis.com/css?family=Copse|Dancing+Script|Gentium+Basic|inconsolata";
+
+/*<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">*/
+
+.container-fluid{
+
+  width: 100%;
+
+
+}
+a{
+  color: black;
+}
+a:hover{
+  color:red;
+}
+
+.test li{
+
+  font-weight: bold;
+  font-family:'Dancing Script';
+  font-size: 50px;
+  color:red;
+  list-style: none;
+  text-align: center;
+
+}
+.card{
+  margin-top: 100px;
+}
+.fevicon{
+  height:30px;
+  width: 30px;
+  color:red;
+
+}
+.navbar{
+  background-color:#e3f2f4;
+
+
+}
+.girl{
+  height:600px;
+  width:auto;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/00/ce/0d/00ce0ddc447afc5e010b1467fad5db06.jpg");
+  background-size: cover;
+    border-left:5px solid black;
+}
+.info{
+  height:600px;
+  vertical-align: middle;
+  display: table;
+
+}
+.info_container{
+  display: table-cell;
+  vertical-align: middle;
+
+}
+.jumbotron .sana{
+  text-align: center;
+
+}
+.jumbotron{
+  background-color:#e3f2f4;
+}
+.row .sana{
+  margin-bottom: 100px;
+}
+.intro{
+  color:red;
+  font-weight: bold;
+  font-size: 40px;
+}
+.container .sana{
+
+  border-right:5px solid black;
+  text-align: right;
+
+
+}
+.space{
+  padding: 50px;
+}
+.container h1{
+  color: red;
+}
+ .container .work{
+   font-size: 30px;
+   text-align: center;
+
+ }
+.card-img-top{
+  max-height: 200px;
+  display: block;
+  margin: 0 auto;
+  width: auto;
+}
+.navbar-text img{
+  height: 30px;
+  margin: 0 10px;
+}
+.typewrite{
+  color:red;
+  font-size: 30px;
+  font-family: 'Inconsolata';
+
+}
